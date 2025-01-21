@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       -name: First step
-      - run: |
+       run: |
           echo "Hello world"
           mkdir mydir
           ls -la
